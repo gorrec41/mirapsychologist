@@ -1,0 +1,82 @@
+.header{
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    z-index: 1;
+} 
+.header__block-img {
+    position: absolute;
+    content: '';
+    right: 0;
+    top: 0;
+    left:50%;
+    height: 80%;
+    background: url('../img/header/rightbg.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    
+}
+.header__block-title{
+    background: url('../img/header/leftbg.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 10rem;
+    
+} 
+.header-line{
+    display: inline-block;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 110%;
+        right: -190%;
+        height: .4rem;
+        background-color: var(--line);
+        border-radius:.4rem;
+        transform: translateY(50%);
+    }
+}
+.title-author{
+    color: var(--autrtitle);
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: 0.02em;
+    
+}
+.title-course{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+} 
+.header__utp{
+    margin-bottom: 2rem;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+} 
+.hiader__link{
+    padding: .5rem 2rem;
+    background: var(--link);
+    color: var(--white);
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
