@@ -1,0 +1,43 @@
+.plan{
+    max-width: 100wh;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    .paragraph{
+        font-size: 30px;
+    }
+}
+.plan__list{
+    &::after{
+        content:'';
+        position: absolute;
+        top: 18%;
+        right: -15%;
+        left: -15%;
+        height:65%;
+        background: #a73047;
+        z-index: -1;
+        transform: rotate(-20deg);
+    }
+} 
+.plan__item{
+    margin: 0 auto;
+    padding: 2rem ;
+    max-width: 60rem;
+    background: #B17987;
+    border-radius:2rem;
+
+}
+.why__list{
+
+} 
+.plan__item,
+.why__item{
+    margin-bottom: 2rem; 
+    p{
+        margin-bottom: 3rem;
+    }
+}
+.why__item{
+    text-align: center;
+}

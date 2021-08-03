@@ -1,9 +1,11 @@
 .header{
     width: 100%;
-    position: relative;
-    min-height: 100vh;
-    z-index: 1;
+    overflow: hidden;
 } 
+.content{
+    position: relative;
+    z-index: 1;
+}
 .header__block-img {
     position: absolute;
     content: '';
