@@ -9,6 +9,9 @@
     max-width: 60rem;
     margin: 0 auto;
 }
+.active{
+    display: block;
+}
 .reviews__artical{
 
 } 
@@ -21,10 +24,10 @@
     border-radius:50%;
 }
 .left{
-    left: 10%;
+    left: 7%;
 }
 .right{
-    right: 10%;
+    right: 7%;
 }
 .arrow-right,
 .arrow__left{
