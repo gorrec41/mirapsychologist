@@ -28,6 +28,7 @@ window.addEventListener('DOMContentLoaded', () => {
             hideVisibal()
             activeVisibal(indexBlock)
             console.log('----')
+            
         }
     })
     arrwRight.addEventListener('click', ()=>{
@@ -40,7 +41,10 @@ window.addEventListener('DOMContentLoaded', () => {
             indexBlock--
             hideVisibal()
             activeVisibal(indexBlock)
+        
         }
+
     })
+    
     //-------//-slider-//---------//
 })
