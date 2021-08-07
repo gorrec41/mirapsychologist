@@ -1,20 +1,38 @@
 .problems{
     position: relative;
     z-index: 2;
+    padding-top:3rem;
+    @media (min-width: 900px){
+        padding-top:0;
+    }
+}
+.problems__utp{
+    margin-bottom: 3rem;
+    text-align: center;
+    @media (min-width: 900px){
+        display: none;
+    }
 }
 .problems__list {
     display: flex;
     margin-bottom: 3rem;
-    justify-content: space-around;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column-reverse;
+    @media (min-width: 900px){
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 .problems__item{
-    width: 15rem;
+    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 3rem;
+    justify-content: center;
     text-align: left;
+    width: 15rem;
     img{
         margin-bottom: 3rem;
         width: 5rem;
@@ -22,6 +40,9 @@
     }
     &:last-child{
         margin-right: 0;
+    }
+    @media (min-width: 900px){
+        margin-right: 3rem;
     }
 }
 .rectangl{

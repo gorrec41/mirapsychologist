@@ -33,10 +33,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
     margin-bottom: 3rem;
+    @media (min-width: 900px){
+        flex-direction: row;
+    }
 }
 .couch__list{
-    margin-right: 4rem;
+    @media (min-width: 900px){
+        margin-right: 4rem;
+    }
 }
 .couch__item{
     margin-bottom: 1rem;
@@ -47,13 +53,17 @@
 .couch__img-wrap{
     width: 298px;
     height: 392px;
+    margin-bottom: 3rem;
     img{
         width:100%;
         height: 100%;
     }
+    @media (min-width: 900px){
+        margin-bottom: 0;
+    }
 }
 .why__list{
-
+    
 } 
 .plan__item,
 .why__item{

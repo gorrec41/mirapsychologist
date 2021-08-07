@@ -1,0 +1,8 @@
+.application{
+    padding-top: 6rem;
+    margin-bottom: 2rem;
+    @media (min-width: 700px){
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+}
